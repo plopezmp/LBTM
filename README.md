@@ -1,2 +1,3 @@
-# Multiclass-Traffic-RFID-Simulator
+# LBTM
+Multiclass-Traffic-RFID-Simulator
 Simulates the operation of a supermarket
