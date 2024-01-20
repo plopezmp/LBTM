@@ -1,7 +1,7 @@
 # LBTM
 Multiclass-Traffic-RFID-Simulator
 
-Simulates the operation in supermarket and hospital plant with different traffic classes. The implementation is carried out through the [Netlogo](https://ccl.northwestern.edu/netlogo/) platform.
+Simulates the operation in supermarket and hospital plant with different traffic classes. The implementation is carried out through the [Netlogo](https://ccl.northwestern.edu/netlogo/) modeling environment.
 
 - *hospital.nlogo* is the main simulator for the dense RFID network for the hospital scenario.
 - *supermarket.nlogo* is the main simulator for the dense RFID network for the grocery shop scenario.
