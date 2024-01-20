@@ -1,0 +1,99 @@
+
+15 repeticiones
+
+
+MAIA
+ ----------------------------------------------------------------------------  
+  
+ java -Xmx1024m -Dfile.encoding=UTF-8 -cp netlogo-6.1.1.jar \
+ org.nlogo.headless.Main \
+ --model ~/utl500/hospital4.nlogo \
+ --experiment utl1_500 \
+ --table ~/utl500/_utl1_500.csv \
+ --threads 8 &
+
+ 
+ java -Xmx1024m -Dfile.encoding=UTF-8 -cp netlogo-6.1.0.jar \
+ org.nlogo.headless.Main \
+ --model ~/delta3_100/hospital4.nlogo \
+ --experiment delta3_100 \
+ --table ~/delta3_100/_delta3_100.csv \
+ --threads 8 &
+ 
+  
+GAUSS
+ ----------------------------------------------------------------------------  
+  
+ java -Xmx1024m -Dfile.encoding=UTF-8 -cp netlogo-6.1.0.jar \
+ org.nlogo.headless.Main \
+ --model ~/prueba2_on/prueba2a.nlogo \
+ --experiment pru2_PLNon_02 \
+ --table ~/prueba2_on/_prueba2_on.csv \
+ --threads 8 & 
+ 
+ 
+ KEPLER
+  ----------------------------------------------------------------------------  
+  
+  java -Xmx1024m -Dfile.encoding=UTF-8 -cp netlogo-6.1.0.jar \
+  org.nlogo.headless.Main \
+  --model ~/prueba2_off/prueba2a.nlogo \
+  --experiment pru2_PLNoff_0656 \
+  --table ~/prueba2_off/_prueba2_off.csv \
+  --threads 8 &
+
+  
+  
+ CEO
+  ----------------------------------------------------------------------------  
+  
+  java -Xmx1024m -Dfile.encoding=UTF-8 -cp netlogo-6.1.0.jar \
+  org.nlogo.headless.Main \
+  --model ~/delta3_1000/hospital4.nlogo \
+  --experiment delta3_1000 \
+  --table ~/delta3_1000/_delta3_1000.csv \
+  --threads 12 &
+ 
+ 
+ java -Xmx1024m -Dfile.encoding=UTF-8 -cp netlogo-6.1.1.jar \
+ org.nlogo.headless.Main \
+ --model ~/utl520_1000/hospital4.nlogo \
+ --experiment utl520_1000 \
+ --table ~/utl520_1000/_utl520_1000.csv \
+ --threads 12 &
+ 
+ java -Xmx1024m -Dfile.encoding=UTF-8 -cp netlogo-6.1.1.jar \
+ org.nlogo.headless.Main \
+ --model ~/utl_test_1/hospital4.nlogo \
+ --experiment utl_test_1 \
+ --table ~/utl_test_1/_utl_test_1.csv \
+ --threads 12 &
+ 
+ kill -STOP 28461
+ kill -CONT 28461
+ 
+ GOOGLE
+ 
+ utl_test: 676 runs 1 40 80 120 160 200 240 280 320 360 400 440 480 520 560 600 640 680 720 760 800 840 880 920 960 1000
+ 
+ java -Xmx1024m -Dfile.encoding=UTF-8 -cp netlogo-6.1.1.jar \
+ org.nlogo.headless.Main \
+ --model ~/utl_1_1000/hospital4.nlogo \
+ --experiment utl_1_1000 \
+ --table ~/utl_1_1000/_utl_1_1000.csv \
+ --threads 16 &
+ 
+ 
+ -----------------------------------------------------------------------------------------
+avg-cycles-of-sns
+avg-cycles-of-io
+avg-cycles-of-inv
+utl
+mean-num-links
+pb-error
+avg-f-inv
+avg-f-io
+avg-f-sns
+avg-utl
+avg-pe-io
+f-count
