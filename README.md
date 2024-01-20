@@ -3,8 +3,8 @@ Multiclass-Traffic-RFID-Simulator
 
 Simulates the operation in supermarket and hospital plant with different traffic classes
 
-- *hospital.nlogo* is the main Netlogo simulator for the RFID dense network for the hospital scenario.
-- *supermarket.nlogo* is the main Netlogo simulator for the RFID dense network for the grocery shop scenario.
+- *hospital.nlogo* is the main Netlogo simulator for the dense RFID network for the hospital scenario.
+- *supermarket.nlogo* is the main Netlogo simulator for the dense RFID network for the grocery shop scenario.
 
 - *Experiments_Hospital* and Experiments_Shop. These folders contain the experiments for the RFID network scenarios investigated in the publication
 
