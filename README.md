@@ -9,3 +9,21 @@ Simulates the operation in supermarket and hospital plant with different traffic
 - *Experiments_Hospital* and Experiments_Shop. These folders contain the experiments for the RFID network scenarios investigated in the publication
 
   López-Matencio, P.; Vales-Alonso, J.; Alcaraz, J.J. *LBTM: Listen-before-Talk Protocol for Multiclass UHF RFID Networks.* **Sensors 2020**, 20, 2313. [https://doi.org/10.3390/s20082313](https://doi.org/10.3390/s20082313)
+
+## Example
+Simple usage 
+```
+java -Xmx1024m -Dfile.encoding=UTF-8 -cp netlogo-6.4.0.jar \
+ org.nlogo.headless.Main \
+ --model ~/utl500/hospital4.nlogo \
+ --experiment utl1_500 \
+ --table ~/utl500/_utl1_500.csv \
+ --threads 8 &
+```
+
+where 
+- `netlogo-6.4.0.jar` is the name of the Netlogo executable.
+- `--model ~/utl500/hospital.nlogo` is the path to our built simulator.
+- `--experiment utl1_500` is the name that have our experiment and contains all the initial configuration paramenters. We can set this configuration parameteres in the *Netlogo BahaviorSpace* (`CTRL+B`).
+- ` --table ~/utl500/_utl1_500.csv` is the file name of the results file.
+- `--threads 8` sets the number of simultaneous simulations. Can be increased or decreased with the server capacity.
