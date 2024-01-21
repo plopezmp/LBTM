@@ -15,7 +15,7 @@ Simple usage
 ```
 java -Xmx1024m -Dfile.encoding=UTF-8 -cp netlogo-6.4.0.jar \
  org.nlogo.headless.Main \
- --model ~/utl500/hospital4.nlogo \
+ --model ~/utl500/hospital.nlogo \
  --experiment utl1_500 \
  --table ~/utl500/_utl1_500.csv \
  --threads 8 &
