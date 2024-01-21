@@ -24,6 +24,6 @@ java -Xmx1024m -Dfile.encoding=UTF-8 -cp netlogo-6.4.0.jar \
 where 
 - `netlogo-6.4.0.jar` is the name of the Netlogo executable.
 - `--model ~/utl500/hospital.nlogo` is the path to our built simulator.
-- `--experiment utl1_500` is the name that have our experiment and contains all the initial configuration paramenters. We can set this configuration parameteres in the *Netlogo BahaviorSpace* (`CTRL+B`).
+- `--experiment utl1_500` is the name that have our experiment and contains all the initial configuration paramenters. We can set the configuration parameteres (e.g., number of reader, distances, Q the medium access FSA parameter) in the *Netlogo BahaviorSpace* (`CTRL+B`).
 - ` --table ~/utl500/_utl1_500.csv` is the file name of the results file.
 - `--threads 8` sets the number of simultaneous simulations. Can be increased or decreased with the server capacity.
