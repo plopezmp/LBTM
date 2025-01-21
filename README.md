@@ -1,4 +1,4 @@
-# LBTM
+# Listen-Before-Talk Multiclass, LBTM
 Multiclass-Traffic-RFID-Simulator
 
 Simulates the operation in supermarket and hospital plant with different traffic classes. The implementation is carried out through the [Netlogo](https://ccl.northwestern.edu/netlogo/) modeling environment. Netlogo is multiplatform and open source.
