@@ -8,7 +8,12 @@ Simulates the operation in supermarket and hospital plant with different traffic
 
 - *Experiments_Hospital* and Experiments_Shop. These folders contain the experiments for the RFID network scenarios investigated in the publication
 
-  López-Matencio, P.; Vales-Alonso, J.; Alcaraz, J.J. *LBTM: Listen-before-Talk Protocol for Multiclass UHF RFID Networks.* **Sensors 2020**, 20, 2313. [https://doi.org/10.3390/s20082313](https://doi.org/10.3390/s20082313)
+
+> **P. López-Matencio, J. Vales-Alonso, JJ Alcaraz**
+> "LBTM: Listen-before-Talk Protocol for Multiclass UHF RFID Networks," 
+> **Sensors 2020**, 20, 2313. 
+> [https://doi.org/10.3390/s20082313](https://doi.org/10.3390/s20082313) 
+
 
 ## Example
 Simple usage 
